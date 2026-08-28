@@ -1,3 +1,37 @@
-body {
-    font: normal 16px Arial;
+:root {
+  --color-white: rgb(252, 252, 252);
+  --color-blue: rgb(8, 111, 245);
+  --color-red: rgb(255, 5, 5);
 }
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+h1 {
+  color: var(--color-red);
+}
+
+h3 {
+    background-color: var(--color-white);
+}
+
+body {
+  font: normal 16px Arial;
+  background-color: var(--color-blue);
+}
+
+
+.header {
+  background-color: var(--color-white);
+  height: 56px;
+  padding: 10px;
+  align-items: center;
+
+}
+
+.logo {
+    width: 50px;
+}
+
