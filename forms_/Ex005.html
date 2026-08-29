@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -8,34 +7,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="#">
 
-        <h1>Cadastre-se no Para onde vou???</h1>
+    <header class="headercadastro" id="headercadastro"> 
+        <img src="imagens/lain.jpeg" alt="" class="logo">
 
-        <h2>Cadastre-se para receber novidades e vagas disponiveis</h2>
+        <div class="seila1">
+            <h2 class="titulo">Para onde vou???</h2>
+            <h4 class="subtitle">Cadastre-se para receber novidades e vagas disponiveis</h4>
+        </div>
 
-        <h4>Informe seus dados</h4>
+    </header>
 
-        <label for="nome">Nome</label> <br>
-        <input type="text" name="nome" id="nome"> <br>
+    <main class="conteudo">
 
-        <label for="email">E-mail</label> <br>
-        <input type="email" name="email" id="email"> <br>
+        <form action="#" class="cadastro">
 
-        <label for="senha">Senha</label>  <br>
-        <input type="password" name="senha" id="senha"> <br>
+            <h2>Cadastre-se para receber novidades e vagas disponiveis</h2>
 
-        <label for="região">Região</label> <br>
-        <select name="região" id="região">
-            <option>Nordeste</option>
-            <option>Norte</option>
-            <option>Centro oeste</option>
-            <option>Suldeste</option>
-            <option>Sul</option>
-        </select>
-    </form>
+            <h4>Informe seus dados</h4>
 
-    <a href="ex004.html" id="bt"><button>Enviar</button></a>
+            <label for="nome">Nome</label> <br>
+            <input type="text" name="nome" id="nome"> <br>
+
+            <label for="email">E-mail</label> <br>
+            <input type="email" name="email" id="email"> <br>
+
+            <label for="senha">Senha</label>  <br>
+            <input type="password" name="senha" id="senha"> <br>
+
+            <label for="região">Região</label> <br>
+            <select name="região" id="região">
+                <option>Nordeste</option>
+                <option>Norte</option>
+                <option>Centro oeste</option>
+                <option>Suldeste</option>
+                <option>Sul</option>
+            </select>
+
+        </form>
+
+        <a href="ex004.html" id="bt"><button>Enviar</button></a>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Bem senhora e senhores, é isso.</p>
+    </footer>
 
 </body>
 </html>
