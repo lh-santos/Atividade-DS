@@ -15,7 +15,7 @@ h1 {
 }
 
 h3 {
-color: var(--color-black);
+  color: var(--color-black);
 }
 
 body {
@@ -37,7 +37,6 @@ body {
   padding: 10px;
   display: flex;
   align-items: center;
-
 }
 
 .seila {
@@ -50,7 +49,7 @@ body {
   margin: 10px;
 }
 
-.links a{
+.links a {
   margin-left: 10px;
   text-decoration: none;
 }
@@ -74,7 +73,6 @@ body {
 .seila1 {
   display: flex;
   flex-direction: column;
-
 }
 
 .conteudo {
@@ -120,3 +118,5 @@ body {
   margin: 0 auto 20px auto;
   text-decoration: none;
 }
+
+/*finalmente o fim 🙏*/
