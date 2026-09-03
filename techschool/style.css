@@ -3,29 +3,53 @@
 }
 
 :root {
-    --color-white: #ffff;
+    --color-white: #fff;
+    --color-gray: #f1e9e9;
     --color-blue: #0066db;
-    --color-black: #000000;
+    --color-black: #000;
 }
 
 body {
     font: normal 16px Arial;
+    background-color: var(--color-gray);
 }
 
-header {
+
+header{
     background-color: var(--color-blue);
     color: var(--color-white);
     padding: 19px 8%;
     align-items: center;
     display: flex;
     justify-content: space-between;
+
 }
 
 .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
     
 }
 
 .imglogo {
     width: 7em;
+    border-radius: 10px;
+}
+
+.btn {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.hero {
+    background-color: var(--color-white);
+    margin: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
