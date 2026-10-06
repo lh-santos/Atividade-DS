@@ -1,0 +1,15 @@
+body {
+    font: normal 20px Arial;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://wallpapers.com/images/featured/serial-experiments-lain-8wdbo9ohnyh74g0i.jpg);
+    color: rgb(241, 0, 0);
+
+.intro {
+    font-size: 16px; 
+    color: blueviolet;
+    position: fixed;
+    bottom: 0 ; 
+    right: 0;
+        
+    }      
+}

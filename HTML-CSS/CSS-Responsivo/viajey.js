@@ -1,4 +1,3 @@
-var header = document.getElementById("header");
 var navitelago_header = document.getElementById("navitelago_header");
 var content = document.getElementById("content");
 var showSidebar = false;
