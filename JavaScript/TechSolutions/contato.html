@@ -1,13 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Contato</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechSolutions - Contato</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body id="pagina">
+
+  <header id="cabecalho">
+    <div class="logo">TECHSOLUTIONS</div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <div class="barra-tema">
+    <button onclick="modoEscuro()">Modo Escuro</button>
+    <button onclick="modoClaro()">Modo Claro</button>
+  </div>
+
+  <main>
+    <h1 class="titulo-pagina" id="titulo">Entre em Contato</h1>
+    <p class="intro-contato">
+      Gostou dos nossos serviços? Preencha o formulário abaixo e nossa equipe
+      entrará em contato com você.
+    </p>
+
+    <section class="card card-formulario" id="card1">
+      <form onsubmit="return false;">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail">
+
+        <label for="assunto">Assunto</label>
+        <input type="text" id="assunto" placeholder="Digite o assunto">
+
+        <label for="campoMensagem">Mensagem</label>
+        <textarea id="campoMensagem" placeholder="Escreva sua mensagem"></textarea>
+
+        <div class="grupo-botoes">
+          <button type="button" onclick="enviarMensagem()">Enviar mensagem</button>
+        </div>
+
+        <span id="mensagemForm" class="mensagem-form">
+          Preencha o formulário para entrar em contato conosco.
+        </span>
+      </form>
+    </section>
+  </main>
+
+  <footer id="rodape">
+    <p>&copy; 2026 TechSolutions - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

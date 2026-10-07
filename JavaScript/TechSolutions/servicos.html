@@ -1,13 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Servicos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechSolutions - Serviços</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body id="pagina">
+
+  <header id="cabecalho">
+    <div class="logo">TECHSOLUTIONS</div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <div class="barra-tema">
+    <button onclick="modoEscuro()">Modo Escuro</button>
+    <button onclick="modoClaro()">Modo Claro</button>
+  </div>
+
+  <main>
+    <h1 class="titulo-pagina" id="titulo">Nossos Serviços</h1>
+
+    <div class="cards">
+      <article class="card" id="card1">
+        <h3>Desenvolvimento de Sites</h3>
+        <p>Criamos sites modernos, responsivos e personalizados para empresas que desejam
+          fortalecer sua presença digital e apresentar seus produtos e serviços na internet.</p>
+        <button class="btn-saiba" onclick="saibaMaisSites()">Saiba mais</button>
+        <span id="mensagemServico1" class="mensagem-servico"></span>
+      </article>
+
+      <article class="card" id="card2">
+        <h3>Desenvolvimento de Aplicativos</h3>
+        <p>Desenvolvemos aplicativos para facilitar o acesso dos clientes aos serviços
+          e informações da empresa.</p>
+        <button class="btn-saiba" onclick="saibaMaisApps()">Saiba mais</button>
+        <span id="mensagemServico2" class="mensagem-servico"></span>
+      </article>
+
+      <article class="card" id="card3">
+        <h3>Sistemas para Empresas</h3>
+        <p>Criamos sistemas web para ajudar empresas a organizar clientes, produtos,
+          informações e processos internos.</p>
+        <button class="btn-saiba" onclick="saibaMaisSistemas()">Saiba mais</button>
+        <span id="mensagemServico3" class="mensagem-servico"></span>
+      </article>
+    </div>
+  </main>
+
+  <footer id="rodape">
+    <p>&copy; 2026 TechSolutions - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

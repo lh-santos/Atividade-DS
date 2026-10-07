@@ -1,27 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechSolutions</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechSolutions - Início</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <main>
-        <header>
-            <div class="logo-titulo">
-                <a href=""><img src="imagens/images.png" alt="Logo da pagina">
-                <h1>TechSolutions</h1>
-                </a>
-            </div>
-            <nav>
-                <a href="index.html">Início</a>
-                <a href="servicos.html">Serviços</a>
-                <a href="contato.html">Contato</a>
-            </nav>
+<body id="pagina">
 
-        </header>
-    </main>
+  <header id="cabecalho">
+    <div class="logo">TECHSOLUTIONS</div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <div class="barra-tema">
+    <button onclick="modoEscuro()">Modo Escuro</button>
+    <button onclick="modoClaro()">Modo Claro</button>
+  </div>
+
+  <main>
+    <section class="hero">
+      <h1 id="titulo">Tecnologia que transforma ideias em soluções.</h1>
+      <p class="texto-apresentacao">
+        A TechSolutions desenvolve soluções digitais para pequenas empresas que desejam
+        crescer, melhorar seus processos e oferecer uma experiência melhor para seus clientes.
+      </p>
+
+      <p id="mensagem" class="mensagem">Clique no botão para conhecer nossa empresa.</p>
+
+      <div class="grupo-botoes">
+        <button onclick="conhecerEmpresa()">Conheça a TechSolutions</button>
+        <button class="btn-secundario" onclick="restaurarPagina()">Restaurar página</button>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="subtitulo">Por que escolher a TechSolutions?</h2>
+      <div class="cards">
+        <article class="card" id="card1">
+          <h3>Inovação</h3>
+          <p>Utilizamos tecnologia para transformar ideias em soluções.</p>
+        </article>
+        <article class="card" id="card2">
+          <h3>Qualidade</h3>
+          <p>Desenvolvemos projetos pensando nas necessidades de cada cliente.</p>
+        </article>
+        <article class="card" id="card3">
+          <h3>Tecnologia</h3>
+          <p>Utilizamos ferramentas modernas para criar soluções eficientes.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="rodape">
+    <p>&copy; 2026 TechSolutions - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
